@@ -39,6 +39,9 @@ header nav ul li {
     font-weight: lighter;
     font-size: 22px;
 }
+
+
+/* FOOTER STYLES START */
 footer {
     background: #fce138;
     width: 100%;
@@ -58,6 +61,8 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*End Footer*/
+
 section {
     padding: 60px;
 }
@@ -84,7 +89,7 @@ section {
     right: 140px;
 }
 .hero-form h3 {
-font-size-adjust: 24px;
+font-size: 24px;
 margin: 0;
 }
 .hero-form p {
@@ -110,7 +115,26 @@ margin: 0;
     font-size: 16px;
 }
     /* HERO STYLE END */
+    
+    /* SECTION TITLE STYLES START */
+    .section-title {
+        font-size: 55px;
+        display: inline-block;
+        padding: 0 100px 20px 100px;
+        border-bottom: 3px solid;
+        margin-bottom: 35px;
+        color: #024e76;
+      }
 
+    .primary-border {
+        border-color: #fce138;
+    }
+
+    .secondary-border { 
+    border-color: #39a6b2;
+    }
+
+    /*WHAT WE DO STYLES*/
 .intro {
     text-align: center;
 }
@@ -122,7 +146,6 @@ margin: 0;
     font-size: 20px;
 }
 .intro p {
-    /* add this alongside your other declaration*/
     margin: 0 auto;
 }
 .steps {
@@ -149,20 +172,8 @@ margin: 0;
 .steps span {
     font-size: 38px;
 }
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #024e76;
-  }
-.primary-border {
-    border-color: #fce138;
-}
-.secondary-border { 
-border-color: #39a6b2;
-}
+
+/*MEET THE TRAINERS*/
 .trainers {
     text-align: center;
 }
@@ -175,28 +186,23 @@ border-color: #39a6b2;
 }
 .trainer img {
     width: 35%;
-    float: left;
-    overflow: auto;
+    float: left;    
 }
 .trainer-bio {
     padding: 35px;
     float: left;
     width: 65%;
-    overflow: auto;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
 }
+
 .trainer-bio h4 {
     font-weight: lighter;
     font-size: 26px;
+    margin-bottom: 25px;
 }
 .trainer-bio p {
     font-size: 17px;
@@ -241,3 +247,12 @@ border-color: #39a6b2;
   }
   
   /* REACH OUT STYLES END */
+
+  /* UTILITIES */
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
